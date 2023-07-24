@@ -1,0 +1,20 @@
+#server conf
+server.port=
+management.endpoints.web.exposure.include=*
+management.endpoint.shutdown.enabled=true
+
+database
+spring.datasource.url=
+spring.datasource.driver-class-name=
+spring.datasource.username=
+spring.datasource.password=
+spring.jpa.database-platform=
+spring.jpa.hibernate.ddl-auto=update
+
+#logs
+logging.level.root=debug
+logging.level.org.springframework.web=trace
+logging.level.org.apache=trace
+
+#optional
+#spring.jpa.show-sql=true
